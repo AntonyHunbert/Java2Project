@@ -1,0 +1,14 @@
+[
+    {
+        "name": "late_night",
+        "value": 848
+    },
+    {
+        "name": "working_hour",
+        "value": 1182
+    },
+    {
+        "name": "off_duty_time",
+        "value": 132
+    }
+]

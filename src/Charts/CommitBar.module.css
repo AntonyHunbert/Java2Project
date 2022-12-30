@@ -1,0 +1,25 @@
+.box1 {
+    /* background-color: aqua; */
+    width: 90vw;
+    height: 50vh;
+    margin: 5vh 0;
+    padding-top: 3vh;
+    box-shadow: 0 0 5px rgb(0, 0, 0, .3);
+
+}
+
+.titleBox {
+    height: 8vh;
+    margin: 1vh 0;
+}
+
+.title {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.box2 {
+    width: 100%;
+    height: 50vh;
+}
+

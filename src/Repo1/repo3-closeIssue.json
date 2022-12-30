@@ -1,0 +1,18 @@
+[
+    {
+        "name": "in 3days",
+        "value": 775
+    },
+    {
+        "name": "in 15days",
+        "value": 65
+    },
+    {
+        "name": "in 30days",
+        "value": 12
+    },
+    {
+        "name": "> 30days",
+        "value": 39
+    }
+]

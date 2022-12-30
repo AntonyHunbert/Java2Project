@@ -1,0 +1,65 @@
+[
+    {
+        "author": "superlbr",
+        "message": "last relase for 4.x\r\n\r\nrun\r\n```\r\nnpm run build:dll\r\nnpm run dev\r\n```\r\n\r\nbuild dist\r\n```\r\nnpm run build  => dist/{version}\r\nnpm run build:new => dist/{version+1}\r\n```\r\n",
+        "date": "2018-06-20 01:31:46",
+        "name": "4.3.9",
+        "commitNum": 579
+    },
+    {
+        "author": "superlbr",
+        "message": "stable version uses umi@1",
+        "date": "2018-08-22 07:39:54",
+        "name": "5.0.0-beta1",
+        "commitNum": 15
+    },
+    {
+        "author": "superlbr",
+        "message": "",
+        "date": "2018-11-05 03:36:07",
+        "name": "5.0.0",
+        "commitNum": 96
+    },
+    {
+        "author": "superlbr",
+        "message": "some upgrade and bug fix",
+        "date": "2018-12-12 05:51:55",
+        "name": "5.0.1",
+        "commitNum": 26
+    },
+    {
+        "author": "superlbr",
+        "message": "thanks @lovemegowin \r\n\r\n1. refactor menu,permission storage strategy\r\n2. search in page/user do not need refresh",
+        "date": "2019-06-24 08:11:15",
+        "name": "5.1.0",
+        "commitNum": 48
+    },
+    {
+        "author": "superlbr",
+        "message": "1. support disable i18n, by set it to false or delete in /src/utils/config.js\r\n2. upgrade antd to 3.24.x",
+        "date": "2019-10-22 02:41:16",
+        "name": "5.1.3",
+        "commitNum": 26
+    },
+    {
+        "author": "superlbr",
+        "message": "upgrade antd to 4.x",
+        "date": "2020-03-24 07:21:34",
+        "name": "5.2.0",
+        "commitNum": 20
+    },
+    {
+        "author": "superlbr",
+        "message": "upgrade umi to 3.x\r\ndrop legacy form with antd4\r\nremove i18n from pathname",
+        "date": "2020-05-10 13:08:01",
+        "name": "5.3.0",
+        "commitNum": 2
+    },
+    {
+        "author": "superlbr",
+        "message": "1. upgrade umi@3.4.x, support webpack5\r\n2. upgrade echart@5.x",
+        "date": "2021-03-17 09:52:05",
+        "name": "5.4.0",
+        "commitNum": 16
+    }
+]
