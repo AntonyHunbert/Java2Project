@@ -9,10 +9,8 @@ import java.util.List;
 public class HandleIssue {
   public List<Issue> handleAllIssue(String rawData) {
 
-
     JSONArray ja = JSON.parseArray(rawData);
     List<Issue> issues = new ArrayList<>();
-
 
     for (int i = 0; i < ja.size(); i++) {
       JSONObject jo = JSON.parseObject(ja.getString(i));

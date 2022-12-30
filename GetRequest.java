@@ -11,18 +11,11 @@ import java.net.URLConnection;
 
 public class GetRequest {
 
-
-
-
-
   public String request() {
     URL issueUrl = null;
     URLConnection uCon = null;
     BufferedReader br = null;
     PrintWriter pw = null;
-
-
-
 
     try {
       issueUrl =  new URL("https://api.github.com/repos/Anduin2017/HowToCook/requests");
@@ -33,9 +26,7 @@ public class GetRequest {
       while ((b1 = br.readLine()) != null){
         pw.println(b1);
       }
-
       return "get requests successfully";
-
     } catch (IOException e) {
       throw new RuntimeException(e);
     }

@@ -26,7 +26,7 @@ public class HandleRelease {
       releases.add(r1);
     }
     List<Release> releases1 = new ArrayList<>();
-    for(int i = releases.size() - 1; i >= 0; i--) {
+    for (int i = releases.size() - 1; i >= 0; i--) {
       releases1.add(releases.get(i));
     }
     for (Release r1: releases1) {
@@ -35,8 +35,7 @@ public class HandleRelease {
         if (dateFormat.parse(c1.getDate()).getTime() < dateFormat.parse(r1.getDate()).getTime()){
           r1.setCommitNum(r1.getCommitNum() + 1);
           commits.remove(c1);
-        }
-        else {
+        } else {
           break;
         }
       }
